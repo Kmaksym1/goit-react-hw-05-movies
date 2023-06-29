@@ -2,12 +2,7 @@ import { useEffect, useState, useRef } from 'react';
 import { fetchMovieDetail } from '../api.jsx';
 import { Suspense } from 'react';
 import { MovieListLink } from './styled';
-import {
-  useParams,
-  useLocation,
-  Link,
-  Outlet,
-} from 'react-router-dom';
+import { useParams, useLocation, Outlet } from 'react-router-dom';
 import { BackLink } from './backLink.jsx';
 import { MovieContainer } from './movieContainer.jsx';
 import { Loader } from 'components/Loader/Loader.jsx';

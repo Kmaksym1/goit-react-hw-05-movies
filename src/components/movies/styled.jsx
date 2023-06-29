@@ -37,7 +37,7 @@ export const MovieListLink = styled(NavLink)`
   text-decoration: none;
   color: black;
   &:hover {
-    color: #009cf6;
+    color: #2fdefd;
     
   }
 
