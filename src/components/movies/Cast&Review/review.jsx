@@ -23,7 +23,7 @@ export const Review = () => {
     return <p>Loading...</p>;
   }
 
-  return !review ? (
+  return (review.length !== 0) ? (
     <ul>
       {review.map(({ id, author, content }) => (
         <li key={id}>

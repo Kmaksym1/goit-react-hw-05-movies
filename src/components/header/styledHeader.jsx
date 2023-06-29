@@ -1,8 +1,6 @@
 import { styled } from "styled-components";
 import { NavLink } from 'react-router-dom';
 export const StyledLink = styled(NavLink)`
-    /* width: 1400px;
-    margin: 0 auto; */
     padding-left: 15px;
     padding-right: 15px;
     text-decoration: none;
@@ -10,6 +8,8 @@ export const StyledLink = styled(NavLink)`
   &.active {
     color: #000000;
   }
+  &:hover {
+    color: #009cf6;}
 `;
 export const StyledNav = styled.div`
 width: 1400px;
