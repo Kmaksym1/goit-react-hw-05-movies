@@ -23,7 +23,6 @@ const Movie = () => {
         console.error('error', error);
       }
     };
-
     fetchData();
   }, [id]);
 
